@@ -1,0 +1,50 @@
+.title{
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title.one{
+    font-size: 3rem;
+}
+
+.title.two{
+    font-size: 2.5rem;
+}
+
+.title.three{
+    font-size: 1.375rem;
+}
+
+.paragraph{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.label{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: normal;
+}
+
+.link{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.title.brand, .label.brand, .link.brand, .paragraph.brand{
+    color: var(--color-brand);
+}
+
+.title.brandHover, .label.brandHover, .link.brandHover, .paragraph.brandHover{
+    color: var(--color-brand-hover);
+}
+
+.title.primary, .label.primary, .link.primary, .paragraph.primary{
+    color: var(--color-primary);
+}
+
+.title.secondary, .label.secondary, .link.secondary, .paragraph.secondary{
+    color: var(--color-secondary);
+}
