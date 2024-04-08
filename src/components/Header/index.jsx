@@ -6,9 +6,9 @@ export const Header = () => {
         <header>
             <img className={styles.img} src={portfolioImage} alt="Imagem da logo portfolio escrito em branco" />
             <div>
-                <a href="">Sobre</a>
-                <a href="">Stack</a>
-                <a href="">Projetos</a>
+                <a href="#aboutMeSection">Sobre</a>
+                <a href="#techSection">Stack</a>
+                <a href="#projectSection">Projetos</a>
             </div>
             <button>Contato</button>
         </header>

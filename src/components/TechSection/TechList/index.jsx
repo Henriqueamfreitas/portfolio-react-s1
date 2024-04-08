@@ -10,7 +10,7 @@ export const TechList = () => {
                     return (
                         <TechCard
                             img={technology.img}
-                            index={index}
+                            key={index}
                             name={technology.name}
                         >
                         </TechCard>

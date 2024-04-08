@@ -1,8 +1,8 @@
 import styles from "../TechCard/style.module.css";
 
-export const TechCard = ({ img, name, index }) => {
+export const TechCard = ({ img, name }) => {
     return(
-        <li key={index}>
+        <li>
             <img src={img} alt="símbolo da tecnologia" />
             <p>{name}</p>
         </li>

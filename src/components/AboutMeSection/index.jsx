@@ -2,7 +2,7 @@ import styles from "../AboutMeSection/style.module.css";
 
 export const AboutMeSection = () => {
     return(
-        <section>
+        <section id="aboutMeSection">
             <h2>Sobre mim</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna, imperdiet sodales sem quis, 
