@@ -5,6 +5,12 @@ import { TechSection } from "./components/TechSection/index.jsx"
 import { ProjectSection } from "./components/ProjectSection/index.jsx"
 import { Footer } from "./components/Footer/index.jsx"
 
+import "../src/styles/reset.css"
+import "../src/styles/globalStyles.css"
+import "../src/styles/links.css"
+import "../src/styles/typography.css"
+import "../src/styles/buttons.css"
+
 function App() {
 
   return (

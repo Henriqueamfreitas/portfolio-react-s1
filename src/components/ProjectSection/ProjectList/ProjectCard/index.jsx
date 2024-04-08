@@ -1,7 +1,7 @@
 import styles from "../ProjectCard/style.module.css";
 import githubIcon from "../../../../assets/git-icon.png"
 
-export const ProjectCard = ({ name, description, ref }) => {
+export const ProjectCard = ({ name, description, ref, index }) => {
     return(
         <li>
             <div>
