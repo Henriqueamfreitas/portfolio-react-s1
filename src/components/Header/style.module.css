@@ -1,3 +1,43 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 .img{
-    background-color: #000000;
+    width: 71px;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+}
+
+.button{
+    background-color: var(--color-brand);
+    transition: .5s;    
+    border-radius: 0.75rem;
+    padding: .5rem 1.5rem;
+}
+
+.button:hover{
+    background-color: var(--color-brand-hover);
+    transition: .5s;    
+}
+
+@media (min-width: 720px){
+    .header{
+        flex-direction: row;
+        padding: 1.5rem 20vw;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
 }

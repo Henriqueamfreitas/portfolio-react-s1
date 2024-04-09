@@ -3,14 +3,14 @@ import styles from "../Header/style.module.css";
 
 export const Header = () => {
     return (
-        <header>
+        <header className={styles.header}>
             <img className={styles.img} src={portfolioImage} alt="Imagem da logo portfolio escrito em branco" />
-            <div>
+            <div className={styles.div}>
                 <a className="paragraph three secondary" href="#aboutMeSection">Sobre</a>
                 <a className="paragraph three secondary" href="#techSection">Stack</a>
                 <a className="paragraph three secondary" href="#projectSection">Projetos</a>
             </div>
-            <button className="paragraph three secondary">Contato</button>
+            <button className={`${styles.button} paragraph three secondary`}>Contato</button>
         </header>
     );
 };
