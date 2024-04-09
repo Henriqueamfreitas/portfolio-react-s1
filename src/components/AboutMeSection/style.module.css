@@ -1,0 +1,35 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.h2{
+    max-width: 350px;
+}
+
+.p{
+    max-width: 350px;
+}
+
+@media (min-width: 1020px){
+    .section{
+        padding: 0 20vw;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 3rem;
+    }
+
+    .h2{
+        min-width: 25%;
+    }
+    
+    .p{
+        max-width: 100%;
+    }
+}
