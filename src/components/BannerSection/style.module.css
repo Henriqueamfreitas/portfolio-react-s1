@@ -1,41 +1,28 @@
 .section{
+    padding: 1rem 15vw 0rem 15vw;
     display: flex;
-    padding: 0rem 15vw;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
     margin-bottom: 1rem;
 }
 
 .div{
-    max-width: 350px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    max-width: 400px;
 }
 
 .img{
     width: 100%;
-    max-width: 350px;
     height: 100%;
+    max-width: 380px;
 }
 
-
-@media (min-width: 1020px){
+@media (min-width: 720px){
     .section{
-        padding: 0rem 20vw;
-        flex-direction: row;
-        justify-content: space-between;
         margin-bottom: 3rem;
-    }
-
-    .div{
-        width: 47%;
-    }
-
-    .img{
-        width: 47%;
-        max-width: 100%;
     }
 }

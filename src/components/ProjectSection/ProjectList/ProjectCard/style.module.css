@@ -1,0 +1,25 @@
+.li{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 1rem 1rem 1.5rem;
+    border: solid 1px var(--color-secondary);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 439px;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    p{
+        margin-bottom: 1rem;
+    }
+    img{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+}

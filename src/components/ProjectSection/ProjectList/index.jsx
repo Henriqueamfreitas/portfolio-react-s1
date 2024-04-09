@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard/index.jsx";
 
 export const ProjectList = () => {
     return(
-        <ul>
+        <ul className={styles.ul}>
             {
                 projects.map((project, index) => {
                     return(

@@ -4,7 +4,7 @@ import { technologies } from "../../../data/technologies.js";
 
 export const TechList = () => {
     return (
-        <ul>
+        <ul className={styles.ul}>
             {
                 technologies.map((technology, index) => {
                     return (
