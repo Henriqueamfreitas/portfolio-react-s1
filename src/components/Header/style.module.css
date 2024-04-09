@@ -21,19 +21,7 @@
     max-width: 400px;
 }
 
-.button{
-    background-color: var(--color-brand);
-    transition: .5s;    
-    border-radius: 0.75rem;
-    padding: .5rem 1.5rem;
-}
-
-.button:hover{
-    background-color: var(--color-brand-hover);
-    transition: .5s;    
-}
-
-@media (min-width: 720px){
+@media (min-width: 1020px){
     .header{
         flex-direction: row;
         padding: 1.5rem 20vw;

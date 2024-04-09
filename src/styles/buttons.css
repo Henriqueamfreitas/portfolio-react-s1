@@ -1,8 +1,12 @@
 .button{
     background-color: var(--color-brand);
-    color: var(--color-primary);
+    transition: .5s;    
+    border-radius: 0.75rem;
+    padding: .5rem 1.5rem;
+    width: 8.125rem;
 }
 
-.button.hover{
+.button:hover{
     background-color: var(--color-brand-hover);
+    transition: .5s;    
 }

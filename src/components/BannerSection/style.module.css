@@ -1,0 +1,41 @@
+.section{
+    display: flex;
+    padding: 0rem 15vw;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.div{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.img{
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+}
+
+
+@media (min-width: 1020px){
+    .section{
+        padding: 0rem 20vw;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+
+    .div{
+        width: 47%;
+    }
+
+    .img{
+        width: 47%;
+        max-width: 100%;
+    }
+}

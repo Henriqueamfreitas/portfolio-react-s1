@@ -10,7 +10,7 @@ export const Header = () => {
                 <a className="paragraph three secondary" href="#techSection">Stack</a>
                 <a className="paragraph three secondary" href="#projectSection">Projetos</a>
             </div>
-            <button className={`${styles.button} paragraph three secondary`}>Contato</button>
+            <button className={`button paragraph three secondary`}>Contato</button>
         </header>
     );
 };
