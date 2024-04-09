@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <footer>
             <div>
-                <h2>Contato</h2>
+                <h2 className="title two secondary">Contato</h2>
                 <a href="">
                     <img src={whatsappLogo} alt="ícone whatsapp" />
                 </a>
@@ -20,7 +20,7 @@ export const Footer = () => {
                     <img src={githubLogo} alt="ícone github" />
                 </a>
             </div>
-            <p>Todos os direitos reservados - Henrique Annicchino</p>
+            <p className="paragraph one secondary">Todos os direitos reservados - Henrique Annicchino</p>
         </footer>
     );
 };

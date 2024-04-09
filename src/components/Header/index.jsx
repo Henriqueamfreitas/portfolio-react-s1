@@ -6,11 +6,11 @@ export const Header = () => {
         <header>
             <img className={styles.img} src={portfolioImage} alt="Imagem da logo portfolio escrito em branco" />
             <div>
-                <a href="#aboutMeSection">Sobre</a>
-                <a href="#techSection">Stack</a>
-                <a href="#projectSection">Projetos</a>
+                <a className="paragraph three secondary" href="#aboutMeSection">Sobre</a>
+                <a className="paragraph three secondary" href="#techSection">Stack</a>
+                <a className="paragraph three secondary" href="#projectSection">Projetos</a>
             </div>
-            <button>Contato</button>
+            <button className="paragraph three secondary">Contato</button>
         </header>
     );
 };

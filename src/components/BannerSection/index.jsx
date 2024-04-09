@@ -5,12 +5,12 @@ export const BannerSection = () => {
     return(
         <section>
             <div>
-                <span>Henrique Annicchino</span>
-                <h2>Bem vindo ao meu portfólio</h2>
-                <span>Uma frase interessante sobre mim</span>
-                <button>Saiba mais</button>
+                <span className="paragraph two brand">Henrique Annicchino</span>
+                <h2 className="title one secondary">Bem vindo ao meu portfólio</h2>
+                <span className="paragraph one secondary">Uma frase interessante sobre mim</span>
+                <button className="paragraph three secondary">Saiba mais</button>
             </div>
-            <img src={banner} alt="" />
+            <img src={banner} alt="Imagem de computadores" />
         </section>
     )
 }

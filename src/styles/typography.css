@@ -1,14 +1,15 @@
 .title{
-    font-weight: 700;
+    font-weight: 800;
     line-height: normal;
+    font-family: "Inter", sans-serif;
 }
 
 .title.one{
-    font-size: 3rem;
+    font-size: 2.625rem;
 }
 
 .title.two{
-    font-size: 2.5rem;
+    font-size: 2.25rem;
 }
 
 .title.three{
@@ -16,21 +17,47 @@
 }
 
 .paragraph{
+    line-height: normal;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+.paragraph.one{
     font-weight: 400;
     font-size: 1rem;
-    line-height: normal;
+}
+
+.paragraph.two{
+    font-weight: 400;
+    font-size: 0.9375rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.paragraph.three{
+    font-weight: 600;
+    font-size: 0.875rem;
 }
 
 .label{
     font-weight: 400;
     font-size: 0.875rem;
     line-height: normal;
+    font-family: "Inter", sans-serif;
 }
 
 .link{
     font-weight: 700;
     font-size: 1rem;
     line-height: normal;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.link:hover{
+    color: var(--color-brand-hover);
+    text-decoration: underline;
+    transition: .5s;
 }
 
 .title.brand, .label.brand, .link.brand, .paragraph.brand{
@@ -47,4 +74,15 @@
 
 .title.secondary, .label.secondary, .link.secondary, .paragraph.secondary{
     color: var(--color-secondary);
+}
+
+
+@media (min-width: 720px){
+    .title.one{
+        font-size: 3rem;
+    }
+    
+    .title.two{
+        font-size: 2.5rem;
+    }
 }
